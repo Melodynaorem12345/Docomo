@@ -1,0 +1,1445 @@
+
+/* Mobile-specific styles using media queries */
+@media (max-width: 768px) {
+  .table-container thead th, 
+  .table-container tbody td {
+    font-size: 8px;
+    padding: 5px 0px;
+  }
+  
+  .btn-book-now {
+    padding: 6px 5px;
+    font-size: 6px;
+  }
+
+  /* Adjust header cell border radius for mobile */
+  .table-container thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+
+  .table-container thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+
+  .table-container tbody td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .table-container tbody td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  /* Adjust table row margins for mobile */
+  .table-container tbody tr {
+    margin: 5px 0px;
+    width: 100%;
+  }
+
+  /* Optional: Scrollable on small screens, making the table horizontally scrollable */
+  .table-container table {
+    width: 100%; /* Ensure the table width adjusts within the container */
+  }
+  .artists-container {
+    justify-content: space-between;
+}
+
+.artist {
+    width: 120px;
+}
+.dotted-line{
+  height: 40px;
+  top: 15px;
+  left: 12.5%;
+}
+.dotted-line-1{
+  left: 18.9%;
+}
+.fees-apply-or-not{
+  height: 40%;
+}
+}
+/* Extra Small Devices (Portrait Phones) */
+@media only screen and (max-width: 576px) {
+    header.style-1 .main-menu ul.list{
+        display: inline-block;
+    }
+    /*************banner mobile view css start here*************/
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group{
+        padding: 30px 0px 2px;
+    }
+    .home4-banner-area .banner-wrapper .banner-img{
+        padding: 0px;
+    }
+    .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .slider-btn-grp4 .slider-btn {
+        left: 1px;
+    }
+    .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .slider-btn-grp4 .slider-btn.tour-tab-slider-next {
+        right: 1px;
+    }
+    .search-container input[type="text"]{
+        font-size: 13px;
+    }
+    .search-container input[type="text"]{
+        padding: 2px 20px 2px 40px;
+    }
+    .home1-banner-bottom .filter-wrapper .filter-group form .filter-area .single-search-box .icon i,.home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box .searchbox-input .custom-select-dropdown .select-input input,.home1-banner-bottom .filter-wrapper .filter-group form .filter-area .single-search-box .searchbox-input .custom-select-dropdown .select-input i,.home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box .searchbox-input .custom-select-dropdown .select-input h6,.select2-container--default .select2-selection--single .select2-selection__rendered,.home1-banner-bottom .filter-wrapper .filter-group form button{
+        font-size: 13px;
+    }
+    .mobile-margin-top-fifteen{
+        margin-top: 15px;
+    }
+    .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .tour-tab-slider .nav-item .nav-link{
+        padding: 14px 0px;
+    }
+    .mobile-margin-top-fifteen .text-white{
+        font-size: 14px;
+    }
+    .product-details-btn-select-btn{
+        gap: 7px;
+    }
+    .home4-banner-area .banner-wrapper {
+        padding: 15px 15px 60px;
+        border: none;
+    }
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group form button {
+        padding: 10px 20px;
+        margin-bottom: 0px;
+    }
+    .home4-banner-area .banner-wrapper .banner-img{
+        background-color: transparent;
+    }
+    .home4-banner-area .banner-wrapper {
+        padding: 10px 15px 15px 15px;
+        background-image: url(../img/banner-img/m-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .product-details-btn-select-btn label{
+        font-size: 12px;
+      }
+      .home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box{
+        padding: 3px 10px!important;
+      }
+      .product-details-btn-select-btn label{
+        padding: 1px 10px;
+      }
+      /***************after banner section start here**************/
+      .package-card2 .eg-tag{
+        padding: 15px 18px;
+      }
+      .section-title p{
+        text-align: justify;
+      }
+      .mb-35{
+        margin-bottom: 50px;
+      }
+      .cruise-slider-section{
+        padding-right: 0px;
+      }
+      .tour-facilites-section .nav-tabs .nav-item .nav-link{
+        font-size: 14px;
+      }
+      .footer-section .footer-top .footer-start-last-section .start-last-section-list li {
+        width: calc(100% / 2); /* For mobile view */
+      }
+      .mb-120 {
+        margin-bottom: 60px;
+    }
+    .pt-80 {
+        padding-top: 60px;
+    }
+    .pb-80{
+        padding-bottom: 60px;
+    }
+    .bg-white-less-1{
+        padding: 25px;
+    } 
+    .feature-card.style-2{
+        margin-bottom: 20px;
+    }  
+    .gap-195 {
+        gap: 215px;
+    }
+    header.style-1 .main-menu ul > li a.secondary-btn1.new-added {
+        /* padding: 32px 9px; */
+        padding: 15.2px 28px!important;
+    }
+    .right-sidebar-button{
+        display: none;
+    }
+    .breadcrumb-section.sticky {
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      z-index: 101;
+    }
+    .new-banner-sticky{
+      padding: 1px 5px;
+      font-size: 12px;
+    }
+    .breadcrumb-section .banner-content .breadcrumb-list li a,.breadcrumb-section .banner-content .breadcrumb-list li{
+      font-size: 10px;
+    }
+    .svg-white{
+      width: 15px;
+    }
+    .search-result-page-change .home1-banner-bottom.style-4 .filter-wrapper .filter-group {
+      padding: 25px 15px 15px;
+    }
+    .search-result-page-change .home4-banner-area .banner-wrapper {
+      background-image: url(../img/banner-img/m-1.png);
+      padding: 0px;
+    }
+    .primary-btn2{
+      font-size: 13px;
+      padding: 13px 10px;
+    }
+    .room-suits-card{
+      padding: 10px;
+    }
+    .room-details-area .package-card .batch {
+      top: 15px;
+      right: 15px;
+    }
+    .room-suits-card .room-content.new-room-content {
+      padding: 20px 5px;
+    }
+    .room-suits-card .room-content.new-room-content .content-top h5 a {
+      font-size: 16px;
+    }
+    .price-and-book .price-area span {
+      font-size: 20px;
+    }
+    .room-suits-card .room-content.new-room-content .content-top .reviews ul li i{
+      font-size: 15px;
+    }
+    .room-suits-card .room-content.new-room-content .content-top .reviews span {
+      font-size: 13px;
+    }
+    .price-and-book .price-area p {
+      font-size: 9px;
+      line-height: 16px;
+    }
+    .btn-type{
+      font-size: 11px;
+      padding: 2px 10px;
+    }
+    .room-suits-card .room-content.new-room-content .content-top .facilisis li{
+      padding-right: 10px;
+    }
+    .room-suits-card .room-content.new-room-content .content-bottom {
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+    }
+    .filter-best-loc p{
+      font-size: 14px;
+    }
+    .filter-best-loc span {
+      font-size: 13px;
+    }
+    .secondary-btn-no-bg,.inner-best-name p {
+      font-size: 13px;
+    }
+    .inner-best-name p:last-child {
+      font-size: 12px;
+    }
+    .inner-design-best{
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    .to-unlock-special-discount{
+      padding: 13px;
+    }
+    .to-unlock-special-discount p.text-3 {
+      font-size: 13px;
+    }
+    .primary-btn2.new-colour {
+      font-size: 11px;
+      padding: 11px 8px;
+    }
+    .package-inner-title-section p{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .package-inner-title-section p span{
+      font-size: 13px;
+    }
+    .package-inner-title-section .selector-and-grid .selector .nice-select {
+      width: 160px;
+      height: 33px;
+      background: #d4d4d4;
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+    .package-inner-title-section .selector-and-grid .selector .nice-select::after{
+      right: 7px;
+    }
+    .package-inner-title-section
+    .selector-and-grid
+    .selector
+    .nice-select::after {
+      width: 6px;
+      height: 6px;
+      top: 53%;
+  }
+    .filter-button,.nice-select .current {
+      font-size: 13px;
+    }
+    .facilities-heading p{
+      font-size: 14px;
+    }
+    .room-details-area .room-img-group.room-img-group-1 {
+      padding: 15px 13px;
+    }
+    .hotel-details-name-loc .reviews ul li i,.content-top.hotel-details-name-loc .reviews span,.content-top.hotel-details-name-loc .loaction-area li{
+      font-size: 12px;
+    }
+    .hotel-details-name-loc h5 {
+      font-size: 16px;
+  }
+  .room-details-area .btn-type {
+    border: 1px solid #9AA0A6;
+    display: inline-block;
+    padding: 1px 11px 0px;
+    border-radius: 15px;
+    font-size: 10px;
+  }
+  .m-price-and-book{
+    width: 72%;
+  }
+  .room-details-area .package-card .batch-1 {
+    top: 15px;
+    right: 65px;
+  }
+  .room-details-area .room-img-group .gallery-img-wrap button i{
+    font-size: 9px;
+  }
+  .room-details-area .room-img-group .gallery-img-wrap button{
+    font-size: 7px;
+  }
+  .room-details-area .room-img-group .gallery-img-wrap.active button{
+    line-height: 13px;
+  }
+  .hotel-properly-details-section {
+    padding: 10px 10px 10px;
+  } 
+  .hotel-properly-details-section h5 {
+    font-size: 16px;
+  }
+  .hotel-properly-details-section p {
+    font-size: 13px;
+  }
+  .extra-facilities li span{
+    font-size: 11px;
+  }
+  .extra-facilities li::before {
+    content: '•';
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    font-size: 15px;
+  }
+  .room-details-area .extra-service-1 li i{
+    font-size: 8px;
+  }
+  .room-details-area .extra-service-1 li {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .common-css-btn {
+    padding: 12px 15px;
+  }
+  .hotel-properly-details-section p.first-rating-express {
+    font-size: 13px;
+  }
+  .hotel-properly-details-section p.text-thin {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .start-rating-1 a{
+    font-size: 10px;
+  }
+  .rating-border-w-background {
+    padding: 20px;
+  }
+  .image-upon-icon .overlay i {
+    font-size: 16px;
+  }
+  .room-img-group-1 h5{
+    font-size: 16px;
+  }
+  .room-details-area p{
+    font-size: 13px;
+  }
+  .room-details-area .room-features.new-features-1 {
+    -moz-columns: 1;
+    columns: 1;
+    margin-bottom: 0px;
+  }
+  .room-details-area .room-features li:last-child{
+    margin-bottom: 5px;
+  }
+  #mainNav .collapse:not(.show) {
+    display: flex;
+  }
+  #mainNav a {
+    font-size: 13px;
+  }
+  .room-img-group .navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    height: 2px;
+  }
+  .hotel-border-b {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .custom-fixed-top {
+    position: fixed;
+    top: 60px;
+  }
+  #room-rates{
+    padding: 12px;
+  }
+  .room-suits-card.room-suits-card-hotels-1 {
+    padding: 10px 10px 5px;
+  }
+  .hotel-details-fourth h5 {
+    font-size: 16px;
+  }
+  .hotel-link-sticky-tab .extra-facilities li span{
+    font-size: 12px;
+  }
+  .hotel-link-sticky-tab .price-and-book .price-area span.little-black{
+    font-size: 10px;
+  }
+  .room-suits-card .room-content {
+    padding: 20px 5px;
+  }
+  .fs-16 {
+    font-size: 11px !important;
+  }
+  .room-suits-card .room-content .content-bottom {
+    /* gap: 35px; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hotel-instruction-section .room-suits-card.room-suits-card-hotels-1 {
+    padding: 13px;
+  }
+  .room-suits-card .room-content .content-top h5{
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  .mm-10{
+    margin-bottom: 10px;
+  }
+  .booking-info-container{
+    margin-bottom: 10px;
+  }
+  .box-color.booking-info-box {
+    padding: 17px 10px;
+    margin-bottom: 12px;
+  }
+  .cancel-link-anchor-1{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .cancel-link-anchor{
+    font-size: 12px;
+  }
+  .custom-radio .form-check{
+    padding-left: 5px;
+  }
+  .custom-radio .form-check-label {
+    font-size: 10px;
+    line-height: 16px;
+    padding-left: 14px;
+  }
+  .custom-radio .form-check-label::before {
+    width: 10px;
+    height: 10px;
+  }
+  .custom-radio .form-check-label::after {
+    width: 6px;
+    height: 6px;
+    left: 2px;
+  }
+  .fs-18{
+    font-size: 12px!important;
+  }
+  .fs-m-18{
+    font-size: 18px!important;
+  }
+  
+  .room-details-area p.mlh-15{
+    line-height: 16px;
+  }
+  .mps-0{
+    padding-left: 0px;
+  }
+  .fd-c{
+    flex-direction: column;
+  }
+  .guest-details-form{
+    padding: 16px;
+  }
+  .fs-14 {
+    font-size: 8px !important;
+  }
+  .fs-m-14{
+    font-size: 12px!important;
+  }
+  .checkout-page .inquiry-form .form-inner.form-inner-1 label.containerss .checkmark {
+    position: absolute;
+    top: -1.5px;
+    left: -2px;
+    height: 10px;
+    width: 10px;
+  }
+  .package-details-area .highlight-tour.new-reviews-verified li {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  .checkout-page .inquiry-form .form-inner label.containerss{
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+  .gap-15{
+    gap: 10px;
+  }
+  .more-light {
+    font-size: 12px;
+    font-weight: 500;
+    color: #282E34;
+    line-height: 16px;
+  }
+  .review-wrapper.room-img-group p {
+    font-size: 13px;
+  }
+  .review-wrapper h4 {
+    font-size: 18px;
+  }
+  .review-wrapper.room-img-group .price-main-name p {
+    font-size: 14px;
+  }
+  .coupon-box span {
+    font-size: 12px;
+    display: inline-block;
+    line-height: 18px;
+  }
+  .banner3-section .banner3-content {
+    padding: 0px 0px;
+  }
+  .banner3-section {
+    margin-bottom: 0px;
+  } 
+  .bg-white-flight {
+    padding: 20px;
+  }
+  .section-title span{
+    font-size: 13px;
+  }
+  .section-title2.two h2 {
+    font-size: 18px;
+  }
+  .card-body-custom {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+  }
+  .flight-inner-section {
+    background: #F0F3F6;
+    padding: 15px 10px;
+  }
+  .product-details-btn-select-btn.flight-filter-sidebar.new-depart label,.product-details-btn-select-btn.flight-filter-sidebar label {
+    padding: 5px 20px;
+    margin-bottom: 5px;
+  }
+  .cheapest-badge {
+    position: absolute;
+    top: -150px;
+    right: -5px;
+    padding: 8px 17px;
+    font-size: 11px;
+  }
+  .use-code-section p{
+    font-size: 12px;
+  }
+  .use-code-section {
+    padding: 10px 15px 10px 15px;
+    margin-top: 15px;
+  }
+  .flight-timing-and-details h4 {
+    font-size: 13px;
+  } 
+  .flight-duration-stop-new h5 {
+    font-size: 10px;
+  }
+  .lh-21 {
+    line-height: 13px !important;
+  }
+  .p-20 {
+    padding: 5px !important;
+  }
+  .start-rating-1 {
+    padding: 5px 0;
+  }
+  .baggage-checkin-cabin span {
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .baggage-checkin-cabin li span::before {
+    margin-right: 3px;
+  }
+  .see-more-listing-popular-place {
+    padding: 5px 10px;
+  }
+  .width-30 {
+    width: 75%;
+  }
+  .price-and-book .price-area span.text-black-gray {
+    font-size: 12px;
+  }
+  .check-icon-1{
+    left: 19%;
+  }
+  .dotted-line {
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    height: calc(100% - 40px);
+    border-left: 2px dotted #d3d3d3;
+  }
+  .flight-segment .time {
+    font-weight: 800;
+    font-size: 9px;
+    color: #000;
+    margin-right: 1px;
+  }
+  .flight-segment .icon::before{
+    width: 6px;
+    height: 6px;
+  }
+  .flight-info .location {
+    font-size: 10px;
+    line-height: 14px;
+    color: #000;
+  }
+  .flight-segment {
+    padding-bottom: 45px;
+  }
+  .flight-duration{
+    font-size: 12px;
+  }
+  .fs-12 {
+    font-size: 10px !important;
+  }
+  .room-details-area p{
+    line-height: 17px;
+  }
+  .ml-30 {
+    translate: 0px 0px;
+    width: 100%;
+  }
+  .price-breakup-card{
+    padding: 15px;
+  }
+  .payment-option input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+  }
+  .payment-option label{
+    font-size: 13px;
+  }
+  .pay-now-btn {
+    background: #1B7573;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+  .pay-now-btn-1{
+    padding: 5px;
+    font-size: 13px;
+  }
+  .cruise-badge .cheapest-badge {
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    padding: 5px 10px;
+    font-size: 9px;
+}
+.dotted-line {
+  height: 70px;
+  top: 13px;
+  left: 10.5%;
+}
+.room-details-area p.price-event{
+  font-size: 13px;
+}
+.event-pricing .book-btn{
+  padding: 0px 5px;
+  font-size: 12px;
+}
+.early-bird {
+  font-size: 11px;
+}
+.attendees {
+  padding: 0px 10px;
+  bottom: 0px;
+  right: -2px;
+  font-size: 10px;
+}
+.new-badge-cheapest .cheapest-badge {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: -5px;
+  padding: 5px 12px;
+  font-size: 11px;
+}
+.mobile-content-top{
+  flex-wrap: wrap;
+}
+.fs-m-16{
+  font-size: 16px!important;
+}
+.quote-card .price-text {
+  font-size: 10px;
+}
+.quote-card .price {
+  font-size: 20px;
+}
+.according-to-this-get-filter .product-details-btn-select-btn.flight-filter-sidebar label {
+  border-radius: 15px;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 15px;
+  color: #4A4A4A;
+}
+.fees-apply-or-not{
+  height: 30%;
+}
+.dotted-line-1 {
+  left: 10.8%;
+}
+}
+
+/* Small Devices (Landscape Phones) */
+@media only screen and (min-width: 576px) and (max-width: 767.89px) {
+    header.style-1 .main-menu ul.list{
+        display: inline-block;
+    }
+    /*************banner mobile view css start here*************/
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group{
+        padding: 35px 0px 10px;
+    }
+    .home4-banner-area .banner-wrapper .banner-img{
+        padding: 0px;
+    }
+    .home1-banner-bottom .filter-wrapper .filter-group form .filter-area .single-search-box .icon i,.home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box .searchbox-input .custom-select-dropdown .select-input input,.home1-banner-bottom .filter-wrapper .filter-group form .filter-area .single-search-box .searchbox-input .custom-select-dropdown .select-input i,.home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box .searchbox-input .custom-select-dropdown .select-input h6,.select2-container--default .select2-selection--single .select2-selection__rendered,.home1-banner-bottom .filter-wrapper .filter-group form button{
+        font-size: 13px;
+    }
+    .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .tour-tab-slider .nav-item .nav-link{
+        padding: 14px 0px;
+    }
+    .mobile-margin-top-fifteen .text-white{
+        font-size: 14px;
+    }
+    .product-details-btn-select-btn{
+        gap: 7px;
+    }
+    .home4-banner-area .banner-wrapper {
+        padding: 15px 15px;
+        border: none;
+    }
+    .search-container input[type="text"]{
+        font-size: 13px;
+    }
+    .search-container input[type="text"]{
+        padding: 2px 20px 2px 40px;
+    }
+    .mobile-margin-top-fifteen{
+        margin-top: 15px;
+    }
+    .home4-banner-area .banner-wrapper {
+        padding: 10px 15px 15px 15px;
+        background-image: url(../img/banner-img/m-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .product-details-btn-select-btn label{
+        font-size: 12px;
+      }
+      .home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box{
+        padding: 3px 10px!important;
+      }
+      .product-details-btn-select-btn label{
+        padding: 1px 10px;
+      }
+      .home1-banner-bottom.style-4 .filter-wrapper .filter-group {
+        padding: 30px 20px;
+      }
+      /***************after banner section start here**************/
+      .package-card2 .eg-tag{
+        padding: 15px 18px;
+      }
+      .section-title p{
+        text-align: justify;
+      }
+      .mb-35{
+        margin-bottom: 50px;
+      }
+      .footer-section .footer-top .footer-start-last-section .start-last-section-list li {
+        width: calc(100% / 3); /* For mobile view */
+      }
+      header.style-1 .main-menu ul > li a.secondary-btn1.new-added {
+        /* padding: 32px 9px; */
+        padding: 15.2px 28px!important;
+    }
+      .right-sidebar-button{
+        display: none;
+    }
+    .breadcrumb-section.sticky {
+      position: fixed;
+      top: 66px;
+    }
+    #mainNav .collapse:not(.show) {
+      display: flex;
+    }
+    .custom-fixed-top {
+      position: fixed;
+      top: 65px;
+    }
+    .hotel-border-b {
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  .room-details-area .room-features{
+    columns: 1;
+  }
+  .booking-info-container{
+    margin-bottom: 10px;
+  }
+  .discount-tag-black {
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .discount-tag-white {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .card-body-custom {
+    position: absolute;
+    top: 3px;
+    left: 9px;
+  }
+  
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    header.style-1 .main-menu ul.list{
+        display: inline-block;
+    }
+    .home4-banner-area .banner-wrapper {
+        padding: 20px 20px;
+        border: none;
+    }
+    .home4-banner-area .banner-wrapper .banner-img {
+        padding: 15px 20px;
+    }
+    .home4-banner-area .banner-wrapper .banner-content-wrap .banner-content h1 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .home4-banner-area .banner-wrapper {
+        padding: 30px 23px 15px;
+        background-image: url(../img/banner-img/m-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .tour-tab-slider .nav-item .nav-link {
+        padding: 12px 0px;
+    }
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group {
+      padding: 20px 0px;
+    }
+       /***************after banner section start here**************/
+      .package-card2 .eg-tag{
+        padding: 10px 15px;
+      }
+      .section-title h2{
+        font-size: 21px;
+      }
+      .section-title p{
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .cruise-slider-section{
+        padding-right: 0px;
+    }
+    .footer-section .footer-top .footer-start-last-section .start-last-section-list li {
+        width: calc(100% / 4); /* For tablet view */
+      }
+      .bg-white-less-1{
+        padding: 15px;
+      }
+      .footer-section .footer-top {
+        padding-top: 8%;
+        padding-bottom: 5%;
+    }
+    header.style-1 .main-menu ul > li a.secondary-btn1.new-added {
+        /* padding: 32px 9px; */
+        padding: 15.2px 28px!important;
+    }
+    .right-sidebar-button{
+        display: none;
+    }
+    .breadcrumb-section.sticky {
+      position: fixed;
+      top: 66px;
+    }
+    .search-result-page-change .home4-banner-area .banner-wrapper {
+      background-image: url(../img/banner-img/m-1.png);
+      padding: 0px;
+  }
+  .pt-80 {
+    padding-top: 45px;
+  }
+  .room-suits-card .room-content.new-room-content{
+    padding: 5px 0px 10px 20px;
+  }
+  .room-details-area .room-img-group .gallery-img-wrap button.btn-to-see-more-image{
+    font-size: 7px;
+  }
+  .primary-btn2{
+    padding: 12px 18px;
+    font-size: 11px;
+  }
+  #mainNav .collapse:not(.show) {
+    display: flex;
+  }
+  .custom-fixed-top {
+    position: fixed;
+    top: 65px;
+  }
+  .hotel-border-b {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .room-details-area .room-features.new-features-1{
+    columns: 2;
+  }
+  .booking-info-container{
+    margin-bottom: 10px;
+  }
+  .box-color.booking-info-box{
+    margin-bottom: 10px;
+  }
+  .banner3-section {
+    margin-bottom: -8px;
+  }
+  .discount-tag-black {
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .discount-tag-white {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
+  .card-body-custom {
+    position: absolute;
+    top: 3px;
+    left: 9px;
+  }
+  .sm-df-color {
+    color: #4A4A4A;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .fs-m-14{
+    font-size: 12px!important;
+  }
+  .ml-30 {
+    translate: 0px 5px;
+    width: 100%;
+}
+.dotted-line-1{
+  left: 17.8%;
+}
+.dotted-line-1.new-mobile-line {
+  left: 19.6%;
+}
+}
+
+/* Large Devices (Desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    header.style-1 .main-menu ul > li a {
+        font-size: 12px;
+      }
+      .select2-container--default .select2-selection--single .select2-selection__rendered{
+          font-size: 12px;
+      }
+      .secondary-btn1.new-added{
+          padding: 12.2px 25px
+      }
+      .home4-banner-area .banner-wrapper .banner-content-wrap .banner-content h1{
+        font-size: 30px;
+      }
+      .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .tour-tab-slider .nav-item .nav-link .content h5{
+        font-size: 14px;
+      }
+      .search-container input[type="text"]{
+        font-size: 13px;
+    }
+    .search-container input[type="text"]{
+        padding: 2px 20px 2px 40px;
+    }
+      .mobile-margin-top-fifteen{
+        margin-top: 15px;
+      }
+      .product-details-btn-select-btn label{
+        font-size: 12px;
+      }
+      .home1-banner-bottom.style-4 .filter-wrapper .filter-group form .filter-area .single-search-box{
+        padding: 3px 10px!important;
+      }
+      .product-details-btn-select-btn label{
+        padding: 1px 10px;
+      }
+      .home4-banner-area .banner-wrapper {
+        padding: 20px 20px 20px;
+        background-image: url(../img/banner-img/l-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group {
+        padding: 20px 10px 10px 10px;
+    }
+    .svg-white {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
+        width: 13px;
+    }
+    .tour-type-tab-slider-section .tab-slider-wrap .nav-pills .tour-tab-slider .nav-item .nav-link{
+        padding: 15px 0px;
+    }
+    .home1-about-section .about-content .section-title h2 {
+        font-size: 23px;
+    }
+    .section-title p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .package-card2 .eg-tag{ 
+        padding: 15px 18px;
+    }
+    .cruise-slider-section{
+        padding-right: 0px;
+    }
+    .footer-section .footer-top .footer-start-last-section .start-last-section-list li {
+        width: calc(100% / 6); /* For tablet view */
+      }
+      .bg-white-less-1{
+        padding: 15px;
+      }
+      .feature-card .feature-card-content h6{
+        font-size: 14px;
+      }
+      .feature-card .feature-card-content p{
+        font-size: 13px;
+      }
+     .banner-content-wrap.second-section img{
+        height: 103px;
+        width: 300px;
+     }
+     .breadcrumb-section.sticky {
+      position: fixed;
+      top: 60px;
+     }
+     .room-details-area .package-card .batch {
+      left: auto;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 3;
+  }
+  .room-suits-card .room-content{
+    padding: 5px 0px 13px 15px;
+  }
+  .room-suits-card .room-content .content-bottom{
+    flex-wrap: wrap;
+  }
+  .checkbox-design ul li{
+    margin-bottom: 15px;
+  }
+  .custom-fixed-top {
+    position: fixed;
+    top: 57px;
+  }
+  .room-details-area .package-card .batch-1 {
+    position: absolute;
+    top: 11px;
+    right: 60px;
+  }
+  .card-body-custom {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  .discount-tag-black{
+    font-size: 12px;
+  }
+  .discount-tag-white {
+    padding: 8px 25px;
+    font-size: 12px;
+  }
+  .tesimonial-card-wrapper .tesimonial-card .testimonial-bottom .date-and-time span{
+    font-size: 10px;
+  }
+  .tesimonial-card-wrapper .tesimonial-card .testimonial-bottom .date-and-time p, .nice-select .current{
+    font-size: 11px;
+  }
+  .package-inner-title-section .selector-and-grid .selector .nice-select{
+    padding-left: 7px;
+  }
+  .package-inner-title-section .selector-and-grid .selector {
+    margin-right: 0px;
+  }
+  .package-inner-title-section .selector-and-grid .selector .nice-select::after {
+    width: 6px;
+    height: 6px;
+    right: 10px;
+  }
+  .selector-and-grid-1 {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px 0px 15px 0px;
+    height: 45px;
+  }
+  .nice-select {
+    padding: 0 20px;
+  }
+  .price-and-book .price-area span {
+    font-size: 26px;
+  }
+  .use-code-section {
+    padding: 10px 15px 10px 15px;
+  }
+  .extra-facilities li span{
+    font-size: 12px;
+  }
+  .secondary-btn-no-bg {
+    font-size: 11px;
+  }
+  .review-wrapper.room-img-group p {
+    font-size: 9px;
+  }
+  .flight-info .location {
+    font-size: 10px;
+  }
+  .flight-duration {
+    left: 24%;
+  }
+  .dotted-line{
+    height: 70px;
+    top: 31.5px;
+    left: 21%;
+  }
+  .fs-m-16 {
+    font-size: 11px !important;
+  }
+  .cart-page .cart-shopping-wrapper .cart-table thead tr th{
+    font-size: 12px;
+  }
+  .fees-apply-or-not .secondary-btn-no-bg {
+    padding: 10px 10px;
+  }
+  .flight-timing-and-details h4 {
+    font-size: 16px;
+  }
+  .fs-14 {
+    font-size: 10px !important;
+  }
+  .check-icon-1{
+    left: 19%;
+  }
+  .card-body-custom-1 {
+    position: absolute;
+    top: -4px;
+    left: 7px;
+  }
+  .discount-tag-black-1,.discount-tag-white-1 {
+    padding: 3px 6px;
+    font-size: 6px;
+  }
+  .sm-df-color {
+    color: #4A4A4A;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .fs-m-14{
+    font-size: 12px!important;
+  }
+  .ml-30 {
+    translate: 0px 5px;
+    width: 100%;
+}
+.product-details-btn-select-btn.flight-filter-sidebar.new-depart label {
+  padding: 13px 18px;
+}
+.room-details-area .room-features.new-features-1{
+  columns: 2;
+}
+.new-coupon-cruise label{
+  font-size: 12px;
+}
+.payment-option .subtext {
+  display: block;
+  line-height: 11px;
+  font-weight: 400;
+  font-size: 9px;
+}
+.payment-option input[type="checkbox"]{
+  width: 15px;
+  height: 15px;
+}
+.quote-card .price-text {
+  font-size: 10px;
+}
+.quote-card .price {
+  font-size: 20px;
+}
+.dotted-line-1 {
+  position: absolute;
+  top: 20px;
+  left: 21.7%;
+}
+.flight-duration.new-book{
+  left: 20%;
+}
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group{
+        padding: 10px 10px 15px;
+    }
+    .breadcrumb-section.sticky {
+      position: fixed;
+      top: 60px;
+    }
+    .room-suits-card .room-content .content-bottom{
+      flex-wrap: wrap;
+    }
+    .checkbox-design ul li{
+      margin-bottom: 15px;
+    }
+    .custom-fixed-top {
+      position: fixed;
+      top: 60px;
+    }
+}
+
+/* Extra Extra Large Devices (XXL Desktops) */
+@media only screen and (min-width: 1400px) and (max-width:1500px) {
+    .home1-banner-bottom.style-4 .filter-wrapper .filter-group{
+        padding: 10px 10px 15px;
+    }
+}
+@media only screen and (min-width:1400px){
+    .banner-content-wrap.second-section img{
+        height: 260px;
+        width: 500px;
+    }
+}
+@media (max-width: 480px) {
+  .artists-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .artist {
+      width: 100%;
+      max-width: 200px;
+  }
+}
+@media only screen and (max-width: 425.98px) {
+  .cheapest-badge {
+    position: absolute;
+    top: -136px;
+    right: -10px;
+    padding: 8px 17px;
+    font-size: 11px;
+  }
+  .dotted-line {
+    position: absolute;
+    top: 15px;
+    left: 10.9%;
+    height: calc(100% - 40px);
+    border-left: 2px dotted #d3d3d3;
+}
+.dotted-line-1 {
+  position: absolute;
+  top: 20px;
+  left: 11.4%;
+}
+.flight-duration.new-book{
+  left: 10%;
+}
+}
+
+@media only screen and (max-width: 375.98px) {
+     /***************after banner section start here**************/
+     .package-card2 .eg-tag{
+        padding: 12px 15px;
+      }
+      .footer-section .footer-top .footer-start-last-section .start-last-section-list li {
+        width: calc(100% / 2); /* For mobile view */
+      }
+      .gap-195 {
+        gap: 195px;
+    }
+    .discount-tag-black,.discount-tag-white{
+      font-size: 11px;
+    }
+    .card-body-custom {
+      position: absolute;
+      top: 12px;
+      left: 13px;
+    }
+    .cheapest-badge {
+      position: absolute;
+      top: -155px;
+      right: -10px;
+      padding: 8px 17px;
+      font-size: 11px;
+  }
+  .dotted-line {
+    position: absolute;
+    top: 15px;
+    left: 12.5%;
+    height: calc(100% - 40px);
+    border-left: 2px dotted #d3d3d3;
+}
+.dotted-line-1 {
+  position: absolute;
+  top: 20px;
+  left: 13.5%;
+}
+.flight-duration.new-book{
+  left: 17%;
+}
+}
+/* Extra Small Devices (Portrait Phones) */
+@media only screen and (max-width: 320px) {
+    /***************after banner section start here**************/
+    .package-card2 .eg-tag{ 
+        padding: 10px 13px;
+     }
+     .eg-tag h6{
+        line-height: 1.2;
+      }
+      .eg-tag h6 span.bigget-text{
+        font-size: 30px;
+      }
+      .eg-tag h6 span.little-semi, .eg-tag span.normal-content{
+        font-size: 14px;
+      }
+      .footer-section .footer-top .footer-start-last-section .start-last-section-list li {
+        width: calc(100% / 2); /* For mobile view */
+      }
+      .gap-195 {
+        gap: 195px;
+    }
+    .room-suits-card .room-content .content-top .facilisis li{
+      font-size: 11px;
+    }
+    .room-suits-card .room-content.new-room-content .content-top h5 a {
+      font-size: 13px;
+  }
+  .price-and-book .price-area span {
+    font-size: 16px;
+  }
+  .filter-best-loc p {
+    font-size: 12px;
+  }
+  .filter-best-loc span {
+    font-size: 11px;
+  }
+  .secondary-btn-no-bg, .inner-best-name p,.inner-best-name p:last-child {
+    font-size: 10px;
+  }
+  .facilities-heading p,.offers-section p{
+    font-size: 13px;
+  }
+  .room-suits-card .room-content.new-room-content .content-top .reviews ul li i {
+    font-size: 13px;
+  }
+  .room-suits-card {
+    padding: 5px;
+  }
+  .room-suits-card .room-content.new-room-content .content-top .reviews span {
+    font-size: 11px;
+  }
+  .room-suits-card .room-content .content-top .loaction-area li{
+    font-size: 11px;
+  }
+  .room-details-area .room-img-group .gallery-img-wrap button.btn-to-see-more-image{
+    font-size: 10px;
+  }
+  .primary-btn2 {
+    font-size: 11px;
+  }
+  .discount-tag-black,.discount-tag-white{
+    font-size: 11px;
+  }
+  .card-body-custom {
+    position: absolute;
+    top: 12px;
+    left: 13px;
+  }
+  .cheapest-badge {
+    position: absolute;
+    top: -142px;
+    right: -5px;
+    padding: 8px 17px;
+    font-size: 11px;
+}
+.cruise-badge .cheapest-badge {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  padding: 5px 10px;
+  font-size: 9px;
+}
+.cruise-badge .cheapest-badge img{
+  width: 15px;
+}
+.dotted-line {
+  position: absolute;
+  top: 15px;
+  left: 15%;
+  height: calc(100% - 40px);
+  border-left: 2px dotted #d3d3d3;
+}
+.dotted-line-1 {
+  position: absolute;
+  top: 20px;
+  left: 16.7%;
+}
+}
+
+  
